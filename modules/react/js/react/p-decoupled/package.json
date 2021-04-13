@@ -1,0 +1,47 @@
+{
+  "name": "react-drupal",
+  "version": "",
+  "description": "Progressively Decoupled Drupal with React",
+  "license": "Apache-2.0",
+  "files": [
+    "main.js",
+    "lib"
+  ],
+  "main": "main.js",
+  "dependencies": {
+    "classnames": "2.2.6",
+    "lodash": "^4.17.5",
+    "lodash.throttle": "4.1.1",
+    "prop-types": "^15.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "webpack": "^5.32.0",
+    "webpack-cli": "^4.6.0"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production webpack",
+    "watch": "webpack --watch --progress"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "browsers": [
+              "IE >= 11",
+              "last 3 versions"
+            ]
+          }
+        }
+      ],
+      "@babel/preset-react"
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+react-list:
+  js:
+    js/react/p-decoupled/dist/app.bundle.js: { minified: true }

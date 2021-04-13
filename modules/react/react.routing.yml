@@ -1,0 +1,6 @@
+react:
+    path: /react/app/v1
+    defaults:
+        _controller: Drupal\react\Controller\ReactController::react
+    requirements:
+        _permission: 'access content'

@@ -1,0 +1,6 @@
+name: React
+type: module
+description: React experiment 1
+package: Custom
+core: 8.x
+core_version_requirement: ^8 || ^9
