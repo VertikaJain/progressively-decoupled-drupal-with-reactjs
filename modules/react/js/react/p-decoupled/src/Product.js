@@ -2,7 +2,7 @@ import React from 'react'
 
 const Product = (props) => {
     const { product } = props;
-    return <div>
+    return <div className="product-content">
         <img src={"http://localhost:8888" + product.field_product_image} alt="product" />
         <h3>{product.title}</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>

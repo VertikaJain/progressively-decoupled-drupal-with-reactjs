@@ -21,7 +21,7 @@ const Products = () => {
     }, [])
 
     return (
-        <div>
+        <div className="products-list">
             {products.map(product => {
                 return <Product key={product.field_id} product={product} />
             })}

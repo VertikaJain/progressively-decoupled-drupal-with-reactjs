@@ -1,3 +1,6 @@
 react-list:
   js:
     js/react/p-decoupled/dist/app.bundle.js: { minified: true }
+  css:
+    layout:
+      js/react/p-decoupled/src/index.css: {}
