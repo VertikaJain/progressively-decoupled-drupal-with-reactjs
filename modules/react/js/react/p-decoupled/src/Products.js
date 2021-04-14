@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Product from './Product'
 
-const url = "http://localhost:8888/drupal/api/v1/products"
+const url = "/drupal/api/v1/products"
 
 const Products = () => {
 
