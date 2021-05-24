@@ -21,9 +21,9 @@
 ### Creating a custom module
 1. Create a new folder in /modules (custom module) -> react
 2. Create 3 files with the required details
-        - react.info.yml 
-        - react.libraries.yml
-        - react.routing.yml
+  - react.info.yml 
+  - react.libraries.yml
+  - react.routing.yml
 3. Create src folder in /modules/react and add a Controller file (ReactContoller.php) that initiates the markup of React.
 
 ### Front end setup (ReactJS code)
@@ -31,7 +31,8 @@
 2. Go to /modules/react/js/react/p-decoupled folder in terminal and run command ` npm init `. This will create a package.json file.
 3. Here, we do NOT use npx create-react-app in order to avoid unnecessary files and modules. Therefore we use webpack and babel for setting up react in our application.
 4. You can refer to my [package.json](https://github.com/VertikaJain/progressively-decoupled-drupal-with-reactjs/blob/master/modules/react/js/react/p-decoupled/package.json) file to install dependencies and dev dependencies for webpack and babel.
-5. Add the following script to your package.json -> ` "build": "NODE_ENV=production webpack" `
+5. Add the following script to your package.json
+` "build": "NODE_ENV=production webpack" `
 6. Create a webpack.config.js file in /p-decoupled folder and add the following code-
 ```
 const path = require('path');
@@ -73,4 +74,5 @@ css:
     layout:
       js/react/p-decoupled/src/index.css: {}
 ```
-5. Lastly, import your index.css file in src/index.js ` import './index.css'; ` 
+5. Lastly, import your index.css file in src/index.js 
+` import './index.css'; ` 
