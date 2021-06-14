@@ -7,8 +7,8 @@
 3. MAMP for server setup
 
 ## Setup using this Repository
-1. Install Drupal 9 and node
-2. For setting up of the server using MAMP and database setup in Drupal, go through the steps in my [Decoupled Drupal Repository](https://github.com/VertikaJain/decoupled-drupal-react/blob/master/README.md)
+1. Install Drupal 9 and node.
+2. For setting up of the server using MAMP and database setup in Drupal, go through the steps in my [Decoupled Drupal Repository](https://github.com/VertikaJain/decoupled-drupal-react/blob/master/README.md).
 3. Download this repository and copy into /Applications/MAMP/htdocs/
 4. In terminal open the folder of this application -> /Applications/MAMP/htdocs/drupal/modules/react/js/react/p-decoupled
 5. Install all packages first using this command - ` npm install ` or ` npm i `
@@ -29,7 +29,7 @@
 ### Front end setup (ReactJS code)
 1. Create a js/react/p-decoupled/ folder in /modules/react for frontend code.
 2. Go to /modules/react/js/react/p-decoupled folder in terminal and run command ` npm init `. This will create a package.json file.
-3. Here, we do NOT use npx create-react-app in order to avoid unnecessary files and modules. Therefore we use webpack and babel for setting up react in our application.
+3. Here, we do **NOT** use `npx create-react-app` in order to avoid unnecessary files and modules. Therefore we use **webpack** and **babel** for setting up react in our application.
 4. You can refer to my [package.json](https://github.com/VertikaJain/progressively-decoupled-drupal-with-reactjs/blob/master/modules/react/js/react/p-decoupled/package.json) file to install dependencies and dev dependencies for webpack and babel.
 5. Add the following script to your package.json
 ` "build": "NODE_ENV=production webpack" `
